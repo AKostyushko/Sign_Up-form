@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: Archivo;
+    background: linear-gradient(to bottom right, rgb(255,255,255) 0%, #3F4C65 100%);
+}
+#login {
+    display: block;
+}
+.main-wrap {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 40%;
+    background-color: white;
+    padding: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-radius: 10px;
+}
+.main-wrap:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background: linear-gradient(to right, rgb(200,55,55) 0%, rgb(40,99,200) 100%);
+    border-radius: 10px 10px 0 0;
+}
+.main-wrap > h2, h4, p {
+    margin: 5px;
+    text-align: center;
+}
+.form-input {
+    display: block;
+    width: 60%;
+    height: 30px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 0;
+    border-radius: 15px;
+    font: normal 16px 'Montserrat Alternates', sans-serif;
+}
+.form-input:focus {
+    outline: none;
+}
+.form-btn {
+    width: 60%;
+    height: 35px;
+    margin: 0 20%;
+    border-radius: 20px;
+    background-color: rgb(150,235,20);
+    border: 0;
+    padding: 0;
+    font: normal 16px 'Montserrat Alternates', sans-serif;
+    outline: none;
+}
+.form-btn:hover, .form-btn:focus {
+    background-color: rgb(140,210,20);
+    font-weight: bold;
+    transition: 0.2s;
+}
+.forgot {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+.forgot:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 75px;
+    left: 10%;
+    width: 35%;
+    border-bottom: 2px solid rgb(200,55,55);
+}
+.forgot:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 75px;
+    right: 10%;
+    width: 35%;
+    border-bottom: 2px solid rgb(200,55,55);
+}
+.signUp-form {
+    display: none;
+    transition: 2s;
+}
+.signUp-form__sex {
+    text-align: center;
+}
+.login-form__reset {
+    margin-top: 30px;
+    background-color: darkgray;
+}
+.login-form__reset:hover {
+    transition: 0.2s;
+    background-color: rgb(150,150,150);
+}
+.back {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
